@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="Error Validation Test(failed)" verbose="0">
+    <classes>
+      <class name="SoftwareTesting.AutomationProject.Test.ErrorValidations">
+        <methods>
+          <include name="submitOrder"/>
+          <include name="ProductErrorValidation"/>
+          <include name="LaunchApplication"/>
+          <include name="tearDow"/>
+        </methods>
+      </class> <!-- SoftwareTesting.AutomationProject.Test.ErrorValidations -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Standalone Test(failed)" verbose="0">
+    <classes>
+      <class name="SoftwareTesting.AutomationProject.Test.StandaloneTest">
+        <methods>
+          <include name="OrderHistoryTest"/>
+          <include name="submitOrder"/>
+          <include name="LaunchApplication"/>
+          <include name="tearDow"/>
+        </methods>
+      </class> <!-- SoftwareTesting.AutomationProject.Test.StandaloneTest -->
+    </classes>
+  </test> <!-- Standalone Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-14T20:03:38 IST" name="Surefire suite" finished-at="2024-10-14T20:04:23 IST" duration-ms="45414">
+    <groups>
+      <group name="purchase">
+        <method signature="StandaloneTest.submitOrder(java.util.HashMap)[pri:0, instance:SoftwareTesting.AutomationProject.Test.StandaloneTest@4f2b503c]" name="submitOrder" class="SoftwareTesting.AutomationProject.Test.StandaloneTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-10-14T20:03:38 IST" name="Surefire test" finished-at="2024-10-14T20:04:23 IST" duration-ms="45414">
+      <class name="SoftwareTesting.AutomationProject.Test.StandaloneTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:SoftwareTesting.AutomationProject.Test.StandaloneTest@4f2b503c]" started-at="2024-10-14T20:03:38 IST" name="LaunchApplication" finished-at="2024-10-14T20:03:42 IST" duration-ms="4131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SoftwareTesting.AutomationProject.Test.StandaloneTest@4f2b503c]" started-at="2024-10-14T20:03:42 IST" name="submitOrder" data-provider="getData" finished-at="2024-10-14T20:03:57 IST" duration-ms="14669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ProductName=ZARA COAT 3, password=Password@1234, email=pratiksha1488@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDow()[pri:0, instance:SoftwareTesting.AutomationProject.Test.StandaloneTest@4f2b503c]" started-at="2024-10-14T20:03:57 IST" name="tearDow" finished-at="2024-10-14T20:03:57 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDow -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:SoftwareTesting.AutomationProject.Test.StandaloneTest@4f2b503c]" started-at="2024-10-14T20:03:57 IST" name="LaunchApplication" finished-at="2024-10-14T20:04:00 IST" duration-ms="2929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SoftwareTesting.AutomationProject.Test.StandaloneTest@4f2b503c]" started-at="2024-10-14T20:04:00 IST" name="submitOrder" data-provider="getData" finished-at="2024-10-14T20:04:20 IST" duration-ms="20243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ProductName=ZARA COAT 3, password=Password@1234, email=adviky2022211@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDow()[pri:0, instance:SoftwareTesting.AutomationProject.Test.StandaloneTest@4f2b503c]" started-at="2024-10-14T20:04:20 IST" name="tearDow" finished-at="2024-10-14T20:04:20 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDow -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:SoftwareTesting.AutomationProject.Test.StandaloneTest@4f2b503c]" started-at="2024-10-14T20:04:20 IST" name="LaunchApplication" finished-at="2024-10-14T20:04:22 IST" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:SoftwareTesting.AutomationProject.Test.StandaloneTest@4f2b503c]" started-at="2024-10-14T20:04:22 IST" name="OrderHistoryTest" finished-at="2024-10-14T20:04:23 IST" depends-on-methods="SoftwareTesting.AutomationProject.Test.StandaloneTest.submitOrder" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDow()[pri:0, instance:SoftwareTesting.AutomationProject.Test.StandaloneTest@4f2b503c]" started-at="2024-10-14T20:04:23 IST" name="tearDow" finished-at="2024-10-14T20:04:23 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDow -->
+      </class> <!-- SoftwareTesting.AutomationProject.Test.StandaloneTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
